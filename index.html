@@ -17,7 +17,7 @@
     </head>   
      
     </body>
-        <nav>
+       <!-- <nav>
             <div class="left-links">
                 <a class="links" href="#">LinkedIn</a>
             </div>
@@ -33,7 +33,29 @@
                 <a class="links" href="#">About</a>
                 <a class="links" href="#">Contact</a>
             </div>    
-        </nav>
+        </nav>-->
+
+<!--PAGE NAV -->
+        <nav class="nav flex-column">
+            <div id="logo">
+                <img src="../UX_UI_HW_20/images/RP logo_black.png" width="54px" height="62px">
+            </div>
+            <a class="nav-link active link-1" href="#introduction">Introduction</a>
+            <a class="nav-link" href="#project-description">Project Description</a>
+            <a class="nav-link" href="#user-research">User Research</a>
+            <a class="nav-link" href="#insights">Insights</a>
+            <a class="nav-link" href="#ideation">Ideation</a>
+            <a class="nav-link" href="#storyboard">Storyboard</a>
+            <a class="nav-link" href="#competitor-analysis">Competitor Analysis</a>
+            <a class="nav-link" href="#problem-statement">Problem Statement</a>
+            <a class="nav-link" href="#digital-wireframes">Digital Wireframes</a>
+            <a class="nav-link" href="#usability-testing">Usability Testing</a>
+            <a class="nav-link" href="#test-results">Test Results</a>
+            <a class="nav-link" href="#iterations">Iterations</a>
+            <a class="nav-link" href="#final-product">Final Product</a>
+            <a class="nav-link" href="#comparison">Comparison</a>
+          </nav>
+<!--END PAGE NAV -->          
 
        <!-- <div class="card_mosaic">
             <img src="../UX_UI_HW_20/images/moasic_background.jpg" class="img-fluid" alt="Mosaic">
@@ -46,7 +68,7 @@
           <!-- Jumbotron -->
     <div class="jumbotron mosaic">
         <div class="jumboCopy">
-          <h1 class="display-4">ABOUT THE PROJECT</h1>
+          <h1 class="display-4" id="introduction">ABOUT THE PROJECT</h1>
           <p class="lead">Reimagining the website of the nonprofit, Ben’s Bells, to increase engagement with the organization.</p>
         </div>
       </div>
@@ -73,7 +95,7 @@
         <!-- Card-IMAGE RIGHT -->
     <section class="container-fluid-section2">
         <div class="card_right">
-            <div class="card-right-img-overlay child-right">
+            <div class="card-right-img-overlay child-right" id="project-description">
                 <!--<p class="card-text-right-spacer">We set out to discover how to increase their visibility in the community, thereby increasing engagement and donations.</p>-->
                 <h5 class="card-title-right">PROJECT DESCRIPTION</h5>
               <p class="card-text-right">Ben’s Bells is a local nonprofit with highly recognizable murals around town, yet many people are unaware of their mission and what they do.</p>
@@ -88,7 +110,7 @@
     
     <!-- User Research -->
     <div class="card mb-3">
-        <div class="card-body-top">
+        <div class="card-body-top" id="user-research">
             <h5 class="card-title-research">USER RESEARCH</h5>
             <p class="card-text-research">To get started, we first needed an understanding of who our user might be. We created a proto persona to target who we could interview in order to gather more information.
                 We interviewed 5 people, aged 40-66 who have children and live in the Tucson or Phoenix area.</p>
@@ -104,7 +126,7 @@
 
  <!-- Insights -->
  <section class="container-fluid-section4">
-    <div class="card_insights">
+    <div class="card_insights" id="insights">
         <div class="img-insights child-insights">
             <img src="../UX_UI_HW_20/images/interview_insights.jpg" id="img-fluid-insights" alt="Insights">
         </div>
@@ -122,11 +144,11 @@
     
      <!-- Ideation -->
      <div class="card mb-4">
-        <div class="card-body-ideation">
+        <div class="card-body-ideation" id="ideation">
             <h5 class="card-title-ideation">IDEATION</h5>
             <p class="card-text-ideation">Now that we understood who our user was, we could go deeper into thinking about what they might want out of an experience with the website.</p>
             <p class="card-text-ideation">We developed a feature prioritization matrix from the research to determine which areas needed to be the focus.</p>
-            <p class="card-text-ideation">Two main areas stood out: the <b>kindness calendar</b> and <b>donation form and process</b></p>
+            <p class="card-text-ideation">Two main areas stood out: the <b>kindness calendar</b> and <b>donation form and process.</b></p>
         </div>
         <div class="img-ideation">
             <img src="../UX_UI_HW_20/images/ideation.jpg" id="img-fluid-ideation" alt="Ideation">
@@ -136,7 +158,7 @@
 
      <!-- Storyboard -->
      <div class="card mb-5">
-        <div class="card-body-storyboard">
+        <div class="card-body-storyboard" id="storyboard">
             <h5 class="card-title-storyboard">STORYBOARD</h5>
             <p class="card-text-storyboard">Next, we created a storyboard to walk us through how our user might come to the site and how they might feel after using the site. This gave us more clarity on our featured functions and what purpose they might serve.</p>
         </div>
@@ -148,7 +170,7 @@
 
      <!-- Competitor Analysis -->
      <div class="card mb-6">
-        <div class="card-body-competitor">
+        <div class="card-body-competitor" id="competitor-analysis">
             <h5 class="card-title-competitor">COMPETITOR ANALYSIS</h5>
             <p class="card-text-competitor">The last thing we needed to do before creating our prototypes was a competitor analysis. We wanted to see what other organizations in this space were doing, and how they were presenting their information and engaging their users.</p>
             <p class="card-text-competitor">Our main takeaways from this exercise were to <b>add clear and mutliple “Donate” buttons</b> to the Ben’s Bells site, and to <b>reorganize the information so that it looked clean, modern, and was interactive.</b></p>
@@ -161,7 +183,7 @@
 
  <!-- Jumbotron-Body -->
  <div class="jumbotron-body">
-    <div class="jumboCopy-body">
+    <div class="jumboCopy-body" id="problem-statement">
       <h1 class="display-5">PROBLEM STATEMENT</h1>
       <p class="lead-body">Our research and ideation work revealed clearly what our problem was that needed solving:</p>
       <p class="lead-body"><b>People need to trust an organization, or otherwise be familiar with it, in order to donate or get involved; and they get involved through word of mouth from people in their communities.</b></p>
@@ -173,14 +195,89 @@
 
   <!-- Digital Wireframe -->
  <div class="jumbotron-wireframes">
-    <div class="jumboCopy-wireframes">
+    <div class="jumboCopy-wireframes" id="digital-wireframes">
       <h1 class="display-6">DIGITAL WIREFRAMES</h1>
     </div>
   </div>
   <!-- End Digital Wireframe -->
 
-
+<!-- Card-Usability Testing -->
+<section class="container-fluid-section5">
+    <div class="card_usability" id="usability-testing">
+        <div class="section-usability child-usability">
+            <h1 class="header-usability top-header">USABILITY</h1>
+            <h1 class="header-usability">TESTING</h1>
+            <h1 class="header-usability">PLAN</h1>
+        </div>
+        <div class="card-usability-img-overlay child-usability top-card">
+          <h5 class="card-title-usability">USER TESTING</h5>
+          <p class="card-text-usability">Now that we had our prototypes, we wanted to see how users would experience engaging with our key features.</p>
+          <p class="card-text-usability">To collect qualitative data, we conducted 2 rounds of usability testing, consisting of 3 user tests for each round.</p>
+        </div>
+        <div class="card-usability-img-overlay child-usability middle-card">
+            <h5 class="card-title-usability">ROUND 1</h5>
+            <p class="card-text-usability">Users were tasked with completing 3 tasks on the mobile wireframe.</p>
+            <h5 class="card-title-usability">ROUND 2</h5>
+            <p class="card-text-usability">A different set of users were tasked with completing the same 3 tasks on the desktop wireframe.</p>
+          </div>
+        <div class="card-usability-img-overlay child-usability bottom-card">
+            <h5 class="card-title-usability">TASKS</h5>
+            <p class="card-text-usability"><b>1. </b>Sign up for the newsletter.</p>
+            <p class="card-text-usability"><b>2. </b>Share your participation in the Kindness Calendar via Facebook.</p>
+            <p class="card-text-usability"><b>3. </b>Go on the website and make a donation.</p>
+        </div>  
+    </div>
+</section>     
+    <!-- End Card- Usability Testing -->   
    
+<!-- Test Results -->
+<div class="card mb-7">
+    <div class="card-body-results" id="test-results">
+        <h5 class="card-title-results">TEST RESULTS</h5>
+        <p class="card-text-results">Testing gave us a lot of insight into things that we needed to change about the prototype in order to make the experience run more smoothly.</p>
+        <p class="card-text-results">We took the insights from our testing and put them into a prioritization matrix in order to determine which updates were the most impactful at this time, keeping in mind the user’s needs as well as the needs of the organization.</p>
+    </div>
+    <div class="img-results">
+        <img src="../UX_UI_HW_20/images/usability_results.jpg" id="img-fluid-results" alt="Results">
+    </div>
+</div>
+<!-- END Test Results -->
+
+<!-- ITERATIONS -->
+<div class="card mb-8">
+    <div class="card-body-iterations" id="iterations">
+        <h5 class="card-title-iterations">ITERATIONS</h5>
+        <p class="card-text-iterations">Now that we had feedback and prioritized our changes, we transformed our prototypes into high fidelity mockups.</p>
+        <p class="card-text-iterations">Some of the changes we made were:</p>
+    </div>
+    <div class="img-iterations">
+        <img src="../UX_UI_HW_20/images/mobile_iterations.jpg" id="img-fluid-iterations" alt="Iterations">
+    </div>
+</div>
+<!-- END ITERATIONS-->
+
+<!-- CONCLUSION -->
+<div class="card mb-9">
+    <div class="card-body-conclusion" id="final-product">
+        <h5 class="card-title-conclusion">FINAL PRODUCT | COMPARISON</h5>
+        <p class="card-text-conclusion">Through interviews, competitive analysis, and user testing, we had identified the main areas to focus our efforts to increase engagement with the Ben’s Bells website. Through our redesign of the website, we:</p>
+        <ul class="bullet-list">
+            <li class="list">Brought the founder’s story front and center in order to connect the user to the mission of the organization.</li>
+            <li class="list">Included more visuals and a short desciption of what the organization does in order to provide clarity to the user.</li>
+            <li class="list">Added more ways to donate.</li>
+            <li class="list">Made the Kindness Calendar interactive and sharable so as to increase community engagement with the organization, and visibility into it’s mission.</li>
+        </ul>
+    </div>
+    <div class="img-conclusion" id="comparison">
+        <img src="../UX_UI_HW_20/images/ORIGINAL SITE.jpg" id="img-fluid-conclusion" alt="Original">
+        <img src="../UX_UI_HW_20/images/REDESIGN.jpg" id="img-fluid-conclusion" alt="Redesign">
+    </div>
+</div>
+<!-- END CONCLUSION-->
+
+
+
+
     <!--<section class="container-fluid-section3">
         <div class="card_research">
             <div class="card-header-research child-research">
